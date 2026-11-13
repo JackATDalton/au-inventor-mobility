@@ -1,0 +1,47 @@
+AU location ids: 1368
+inventors ever with AU address: 39482
+inventor-patent rows for them: 259513
+dropped rows (no date/country): 982
+
+WINDOWS
+{'window': '1981-1990', 'residents': 4195, 'immigrants': 305, 'diaspora': 303, 'net': 2, 'em_rate': 6.74, 'imm_rate': 7.27, 'diaspora_US': 162, 'diaspora_US_share': 53.5, 'top_dest': 'US 162; GB 78; CA 23; JP 13; DE 11; AT 4'}
+{'window': '1991-2000', 'residents': 7693, 'immigrants': 856, 'diaspora': 820, 'net': 36, 'em_rate': 9.63, 'imm_rate': 11.13, 'diaspora_US': 526, 'diaspora_US_share': 64.1, 'top_dest': 'US 526; GB 138; CA 39; DE 32; JP 17; AT 12'}
+{'window': '2001-2010', 'residents': 12032, 'immigrants': 1734, 'diaspora': 1423, 'net': 311, 'em_rate': 10.58, 'imm_rate': 14.41, 'diaspora_US': 861, 'diaspora_US_share': 60.5, 'top_dest': 'US 861; GB 222; CA 65; DE 47; CN 33; JP 27'}
+{'window': '2011-2020', 'residents': 16123, 'immigrants': 2809, 'diaspora': 2501, 'net': 308, 'em_rate': 13.43, 'imm_rate': 17.42, 'diaspora_US': 1477, 'diaspora_US_share': 59.1, 'top_dest': 'US 1477; GB 335; CN 142; CA 98; DE 61; IE 46'}
+{'window': '2011-2015', 'residents': 9453, 'immigrants': 1659, 'diaspora': 1515, 'net': 144, 'em_rate': 13.81, 'imm_rate': 17.55, 'diaspora_US': 885, 'diaspora_US_share': 58.4, 'top_dest': 'US 885; GB 207; CN 73; CA 59; DE 40; IE 31'}
+{'window': '2016-2020', 'residents': 10780, 'immigrants': 2046, 'diaspora': 1881, 'net': 165, 'em_rate': 14.86, 'imm_rate': 18.98, 'diaspora_US': 1129, 'diaspora_US_share': 60.0, 'top_dest': 'US 1129; GB 234; CN 120; CA 72; DE 46; IE 37'}
+{'window': '2021-2024', 'residents': 3899, 'immigrants': 830, 'diaspora': 966, 'net': -136, 'em_rate': 19.86, 'imm_rate': 21.29, 'diaspora_US': 610, 'diaspora_US_share': 63.1, 'top_dest': 'US 610; GB 99; CN 93; CA 36; DE 19; IE 12'}
+
+MOVES BY 5-YR (out, out_to_US, in, in_returning, net)
+1976-1980 88 51 115 16 27
+1981-1985 216 124 212 20 -4
+1986-1990 394 208 381 43 -13
+1991-1995 545 351 524 51 -21
+1996-2000 888 559 934 92 46
+2001-2005 1266 781 1411 176 145
+2006-2010 1482 880 1648 215 166
+2011-2015 2257 1316 2339 284 82
+2016-2020 2800 1639 2926 371 126
+2021-2024 805 483 734 89 -71
+
+OUT DESTINATIONS by period: {'2011-20': [('US', 2955), ('GB', 612), ('CN', 397), ('CA', 176), ('DE', 136)], '2001-10': [('US', 1661), ('GB', 376), ('CA', 113), ('DE', 104), ('AT', 75)], '1991-2000': [('US', 910), ('GB', 231), ('CA', 63), ('DE', 49), ('AT', 44)], '1976-90': [('US', 391), ('GB', 167), ('JP', 37), ('CA', 33), ('DE', 31)], '2021-24': [('US', 483), ('GB', 89), ('CN', 86), ('CA', 30), ('DE', 18)]}
+
+PRODUCTIVITY
+{'cohort': '1976-90', 'ever_abroad': False, 'n': 4288, 'mean_patents': 2.54, 'median_patents': 1.0, 'share_5plus': 0.108, 'mean_patents_before_first_foreign': 2.54}
+{'cohort': '1976-90', 'ever_abroad': True, 'n': 1263, 'mean_patents': 9.84, 'median_patents': 5, 'share_5plus': 0.574, 'mean_patents_before_first_foreign': 2.06}
+{'cohort': '1991-2000', 'ever_abroad': False, 'n': 5150, 'mean_patents': 3.82, 'median_patents': 1.0, 'share_5plus': 0.146, 'mean_patents_before_first_foreign': 3.82}
+{'cohort': '1991-2000', 'ever_abroad': True, 'n': 1105, 'mean_patents': 15.53, 'median_patents': 5, 'share_5plus': 0.573, 'mean_patents_before_first_foreign': 2.82}
+{'cohort': '2001-10', 'ever_abroad': False, 'n': 7519, 'mean_patents': 3.73, 'median_patents': 1, 'share_5plus': 0.169, 'mean_patents_before_first_foreign': 3.73}
+{'cohort': '2001-10', 'ever_abroad': True, 'n': 1126, 'mean_patents': 9.1, 'median_patents': 5.0, 'share_5plus': 0.559, 'mean_patents_before_first_foreign': 2.55}
+{'cohort': '2011+', 'ever_abroad': False, 'n': 10614, 'mean_patents': 2.27, 'median_patents': 1.0, 'share_5plus': 0.09, 'mean_patents_before_first_foreign': 2.27}
+{'cohort': '2011+', 'ever_abroad': True, 'n': 661, 'mean_patents': 6.43, 'median_patents': 4, 'share_5plus': 0.411, 'mean_patents_before_first_foreign': 2.0}
+
+META {
+ "au_locations": 1368,
+ "inventors_ever_au": 39482,
+ "inventors_with_data": 39480,
+ "au_origin": 31726,
+ "rows": 259513,
+ "dropped": 982,
+ "max_filing": "2024-11-08"
+}
